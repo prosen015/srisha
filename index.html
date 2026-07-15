@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Srisha | Online Shopping</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+
+    <header>
+
+        <div class="header">
+
+            <div class="logo">
+                <a href="index.html">Srisha</a>
+            </div>
+
+            <div class="search-box">
+
+                <input
+                    type="text"
+                    id="search-input"
+                    placeholder="Search products...">
+
+                <button type="button">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+
+            </div>
+
+            <div class="header-icons">
+
+                <a href="#">
+                    <i class="fa-regular fa-user"></i>
+                </a>
+
+                <a href="wishlist.html" class="wishlist-icon">
+    <i class="fa-regular fa-heart"></i>
+    <span id="wishlist-count">0</span>
+</a>
+
+                <a href="cart.html" class="cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span id="cart-count">0</span>
+                </a>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- Menu -->
+
+    <nav class="menu">
+
+        <a href="#">Home</a>
+        <a href="#">Mobiles</a>
+        <a href="#">Electronics</a>
+        <a href="#">Fashion</a>
+        <a href="#">Beauty</a>
+        <a href="#">Grocery</a>
+        <a href="#">Sports</a>
+
+    </nav>
+
+    <!-- Banner -->
+
+    <section class="slider">
+
+    <img id="banner-image"
+         src="images/banners/banner1.jpg"
+         alt="Banner">
+
+    <button id="prev-banner" class="slider-btn prev">
+        ❮
+    </button>
+
+    <button id="next-banner" class="slider-btn next">
+        ❯
+    </button>
+
+</section>
+
+    <!-- Categories -->
+
+    <section class="categories">
+
+        <h2>Shop by Category</h2>
+
+        <div class="category-grid">
+
+    <div class="category-card" data-category="All">All</div>
+
+    <div class="category-card" data-category="Electronics">Electronics</div>
+
+    <div class="category-card" data-category="Fashion">Fashion</div>
+
+    <div class="category-card" data-category="Beauty">Beauty</div>
+
+    <div class="category-card" data-category="Grocery">Grocery</div>
+
+    <div class="category-card" data-category="Sports">Sports</div>
+
+        </div>
+
+    </section>
+
+    <!-- Products -->
+
+    <section class="products">
+
+        <h2>Today's Deals</h2>
+
+        <div id="product-list" class="product-grid"></div>
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>© 2026 Srisha. All Rights Reserved.</p>
+
+    </footer>
+
+    <script src="js/app.js"></script>
+<script src="js/banner.js"></script>
+
+</body>
+
+</html>
